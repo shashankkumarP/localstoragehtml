@@ -1,6 +1,6 @@
 document.querySelector("form").addEventListener("submit",myfun);
 
-var todol = JSON.parse(localStorage.getItem("todal")) || [];
+var todol = JSON.parse(localStorage.getItem("todoal")) || [];
 function myfun(){
     event.preventDefault();
     var name = document.querySelector("#name").value;
